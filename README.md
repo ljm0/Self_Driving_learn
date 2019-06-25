@@ -1,5 +1,5 @@
 # Self-driving Simulation
-Learn Self-driving and deep learning based on [Udacity](https://www.udacity.com/course/self-driving-car-engineer-nanodegree--nd013)
+Learn some Self-driving and deep learning based on [Udacity](https://www.udacity.com/course/self-driving-car-engineer-nanodegree--nd013)
 
 
 > 1. Please install [Open in Colab](https://chrome.google.com/webstore/detail/open-in-colab/iogfkhleblhcpcekbiedikdehleodpjo) extension in Google Chrome in order to open a Github-hosted notebook in Google Colab with one-click.
