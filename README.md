@@ -1,16 +1,8 @@
 # Self-driving Simulation
 Try to learn some Self-driving and deep learning based on [Udacity](https://www.udacity.com/course/self-driving-car-engineer-nanodegree--nd013) and Na's work.
 
-
-> 1. Please install [Open in Colab](https://chrome.google.com/webstore/detail/open-in-colab/iogfkhleblhcpcekbiedikdehleodpjo) extension in Google Chrome in order to open a Github-hosted notebook in Google Colab with one-click.
-> 2. Personally, I recommend using Kaggle kernel directly to explore the dataset, instead of downloading the dataset to local machine, if you do not have a powerful GPU.
-
-
-
 ## Table of Contents
 
-- [Introduction](#introduction)
-- [Prerequisite](#prerequisite)
 - [Dataset](#dataset)
 - [Usage](#usage)
     - [Training](#training)
@@ -34,25 +26,7 @@ Try to learn some Self-driving and deep learning based on [Udacity](https://www.
 - [References](#references)
 
 
-
-## Introduction
-
-Self-driving vehicles is the most hottest and interesting topics of research and business nowadays. More and more giant companies have jumped into this area. In this project, I have implemented the CNN model put forward by Nvidia Research in this [paper](https://arxiv.org/pdf/1604.07316v1.pdf) using PyTorch to extract features from 3 cameras in the vehicle simulation software to predict steering angle. This is an end-to-end approach to apply to autonomous driving.
-
-
-## Prerequisite
-
-We will use Python as the primary programming language and [PyTorch](https://pytorch.org/) as the Deep Learning framework. Other resources / software / library could be found as follows.
-
-
-1. Self-driving car simulator developed by [Udacity](https://www.udacity.com/course/self-driving-car-engineer-nanodegree--nd013) with Unity. Download [here](https://github.com/udacity/self-driving-car-sim)
-2. Install [PyTorch environment](https://pytorch.org/get-started/locally/) (latest version the best) in your local machine.
-3. Log in [Google Colab](https://colab.research.google.com/) (if you do not have GPU and would love to utilize the power of GPU, please try this and be sure to enable `GPU` as accelerator)
-
-
 ## Dataset
-
-I have already uploaded training images in Kaggle and Floydhub. Feel free to download:
 
 - [Kaggle](https://www.kaggle.com/zaynena/selfdriving-car-simulator) together with [starter code](https://www.kaggle.com/zaynena/self-driving-car-simulation-demo) and pre-trained models
 - [Floydhub](https://www.floydhub.com/zhenye/datasets/self-driving-sim)
@@ -347,16 +321,6 @@ Applied a [Savitzky-Golay filter](https://en.wikipedia.org/wiki/Savitzky%E2%80%9
 |                                                         Track 1                                                         |                                                         Track 2                                                         |                                                         Track 3                                                         |
 |:-----------------------------------------------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------------------------------------------:|
 | [![Watch the video](https://img.youtube.com/vi/xIm6FR_8fm8/hqdefault.jpg)](https://www.youtube.com/watch?v=xIm6FR_8fm8) | [![Watch the video](https://img.youtube.com/vi/vp2ECcXOcWg/hqdefault.jpg)](https://www.youtube.com/watch?v=vp2ECcXOcWg) | [![Watch the video](https://img.youtube.com/vi/qe-zkH3rDrg/hqdefault.jpg)](https://www.youtube.com/watch?v=qe-zkH3rDrg) |
-
-
-
-## Future work
-
-- [x] Edge detection pre-processing
-- [x] Use Joystick instead of Keyboard to create more "continuous" dataset (denoising input instead)
-- [ ] Predict $\Delta_\text{steering angle}$ instead of $\theta_{\text{steering angle}}$
-- [ ] Take "velocity" into account
-- [ ] Add "autonomous mode" images into training set
 
 
 ## References
