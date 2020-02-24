@@ -1,5 +1,5 @@
 # Self-driving Simulation
-Learn some Self-driving and deep learning based on [Udacity](https://www.udacity.com/course/self-driving-car-engineer-nanodegree--nd013)
+Try to learn some Self-driving and deep learning based on [Udacity](https://www.udacity.com/course/self-driving-car-engineer-nanodegree--nd013) and Na's work.
 
 
 > 1. Please install [Open in Colab](https://chrome.google.com/webstore/detail/open-in-colab/iogfkhleblhcpcekbiedikdehleodpjo) extension in Google Chrome in order to open a Github-hosted notebook in Google Colab with one-click.
@@ -66,20 +66,9 @@ I have already uploaded training images in Kaggle and Floydhub. Feel free to dow
 
 ## Usage
 
-Download this repo.
-
-
-```
-git clone https://github.com/Zhenye-Na/self-driving-vehicles-sim-with-ml.git
-
-cd self-driving-vehicles-sim-with-ml/src
-```
-
-
 ### Training
 
 #### Local machine
-
 
 ```
 usage: main.py [-h] [--dataroot DATAROOT] [--ckptroot CKPTROOT] [--lr LR]
